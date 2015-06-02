@@ -1,6 +1,6 @@
 ![smart light](assets/header.jpg "smart light")
 
-# Smart Light
+# Smart Light v1.0.0
 
 #### Smart Light ( Arduino Sketch, Fritzing Schematic &amp; Mobile App )
 
@@ -13,12 +13,12 @@ Parts List
 
 #### You will need to purchase the following hardware:
 
-* [Arduino Pro Mini 328 - 5V/16 MHz](https://www.adafruit.com/products/2378?utm_medium=referral&utm_source=manifestinteractive)
-* [PIR (motion) sensor](https://www.adafruit.com/products/189?utm_medium=referral&utm_source=manifestinteractive)
-* [NeoPixel Ring - 12 x WS2812 5050 RGB LED with Integrated Drivers](https://www.adafruit.com/products/1643?utm_medium=referral&utm_source=manifestinteractive)
-* [Adafruit TSL2561 Digital Luminosity/Lux/Light Sensor Breakout](https://www.adafruit.com/products/439?utm_medium=referral&utm_source=manifestinteractive)
-* [Bluefruit LE - Bluetooth Low Energy (BLE 4.0) - nRF8001 Breakout - v1.0](https://www.adafruit.com/products/1697?utm_medium=referral&utm_source=manifestinteractive)
-* [Mini DC/DC Step-Down (Buck) Converter - 5V @ 1A output - TSR12450](https://www.adafruit.com/products/1065?utm_medium=referral&utm_source=manifestinteractive)
+* `ARD` [Arduino Pro Mini 328 - 5V/16 MHz](https://www.adafruit.com/products/2378?utm_medium=referral&utm_source=manifestinteractive)
+* `PIR` [PIR (motion) sensor](https://www.adafruit.com/products/189?utm_medium=referral&utm_source=manifestinteractive)
+* `NEO` [NeoPixel Ring - 12 x WS2812 5050 RGB LED with Integrated Drivers](https://www.adafruit.com/products/1643?utm_medium=referral&utm_source=manifestinteractive)
+* `LUX` [Adafruit TSL2561 Digital Luminosity/Lux/Light Sensor Breakout](https://www.adafruit.com/products/439?utm_medium=referral&utm_source=manifestinteractive)
+* `BLU` [Bluefruit LE - Bluetooth Low Energy (BLE 4.0) - nRF8001 Breakout - v1.0](https://www.adafruit.com/products/1697?utm_medium=referral&utm_source=manifestinteractive)
+* `SDC` [Mini DC/DC Step-Down (Buck) Converter - 5V @ 1A output - TSR12450](https://www.adafruit.com/products/1065?utm_medium=referral&utm_source=manifestinteractive)
 
 #### Optional Parts:
 
@@ -33,5 +33,26 @@ I found it was actually cheaper to just get an existing Motion Light and replace
 
 Wiring Instructions
 ---
+
+| Part     | Pin    |    | Part | Pin  | Cable  |
+| -------- | ------ | -- | ---- | ---- | ------ |
+| __PIR__  | Red    | -> | ARD  | VCC  | Red    |
+| PIR      | Yellow | -> | ARD  | 3    | Yellow |
+| PIR      | Black  | -> | ARD  | GND  | Black  |
+| __NEO__  | PWR    | -> | ARD  | VCC  | Red    |
+| NEO      | IN     | -> | ARD  | 6    | Blue   |
+| NEO      | GND    | -> | ARD  | GND  | Black  |
+| __LUX__  | VIN    | -> | ARD  | VCC  | Red    |
+| LUX      | GND    | -> | ARD  | GND  | Black  |
+| LUX      | SDA    | -> | ARD  | A4   | Yellow |
+| LUX      | SCL    | -> | ARD  | A5   | Blue   |
+| __BLU__  | SCK    | -> | ARD  | 13   | Blue   |
+| BLU      | MISO   | -> | ARD  | 12   | Yellow |
+| BLU      | MOSI   | -> | ARD  | 11   | Orange |
+| BLU      | REQ    | -> | ARD  | 10   | Grey   |
+| BLU      | RDY    | -> | ARD  | 2    | White  |
+| BLU      | RST    | -> | ARD  | 9    | Orange |
+| BLU      | GND    | -> | ARD  | GND  | Black  |
+| BLU      | VIN    | -> | ARD  | VCC  | Red    |
 
 ![wiring](fritzing/exports/smart_light.jpg "wiring")
