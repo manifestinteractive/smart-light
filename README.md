@@ -34,25 +34,25 @@ I found it was actually cheaper to just get an existing Motion Light and replace
 Wiring Instructions
 ---
 
-Part     | Pin    | > | Part | Pin  | Cable 
--------- | ------ | - | ---- | ---- | ------
-__PIR__  | Red    | > | ARD  | VCC  | Red
-PIR      | Yellow | > | ARD  | 3    | Yellow
-PIR      | Black  | > | ARD  | GND  | Black
-__NEO__  | PWR    | > | ARD  | VCC  | Red
-NEO      | IN     | > | ARD  | 6    | Blue
-NEO      | GND    | > | ARD  | GND  | Black
-__LUX__  | VIN    | > | ARD  | VCC  | Red
-LUX      | GND    | > | ARD  | GND  | Black
-LUX      | SDA    | > | ARD  | A4   | Yellow
-LUX      | SCL    | > | ARD  | A5   | Blue
-__BLU__  | SCK    | > | ARD  | 13   | Blue
-BLU      | MISO   | > | ARD  | 12   | Yellow
-BLU      | MOSI   | > | ARD  | 11   | Orange
-BLU      | REQ    | > | ARD  | 10   | Grey
-BLU      | RDY    | > | ARD  | 2    | White
-BLU      | RST    | > | ARD  | 9    | Orange
-BLU      | GND    | > | ARD  | GND  | Black
-BLU      | VIN    | > | ARD  | VCC  | Red
+Part | Pin | > | Part | Pin | Cable 
+---- | --- | - | ---- | --- | ------
+PIR | Red | > | ARD | VCC | Red
+PIR | Yellow | > | ARD | 3 | Yellow
+PIR | Black | > | ARD | GND | Black
+NEO | PWR | > | ARD | VCC | Red
+NEO | IN | > | ARD | 6 | Blue
+NEO | GND | > | ARD | GND | Black
+LUX | VIN | > | ARD | VCC | Red
+LUX | GND | > | ARD | GND | Black
+LUX | SDA | > | ARD | A4 | Yellow
+LUX | SCL | > | ARD | A5 | Blue
+BLU | SCK | > | ARD | 13 | Blue
+BLU | MISO | > | ARD | 12 | Yellow
+BLU | MOSI | > | ARD | 11 | Orange
+BLU | REQ | > | ARD | 10 | Grey
+BLU | RDY | > | ARD | 2 | White
+BLU | RST | > | ARD | 9 | Orange
+BLU | GND | > | ARD | GND | Black
+BLU | VIN | > | ARD | VCC | Red
 
 ![wiring](fritzing/exports/smart_light.jpg "wiring")
