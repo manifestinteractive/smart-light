@@ -22,14 +22,16 @@ Parts List
 
 #### Optional Parts:
 
-* [FTDI Serial TTL-232 USB Cable](https://www.adafruit.com/products/70)
-* [4 x AA Battery Holder with On/Off Switch](https://www.adafruit.com/products/830)
+* [FTDI Serial TTL-232 USB Cable](https://www.adafruit.com/products/70?utm_medium=referral&utm_source=manifestinteractive) ( I use this to program the Arduino boards )
+* [4 x AA Battery Holder with On/Off Switch](https://www.adafruit.com/products/830?utm_medium=referral&utm_source=manifestinteractive) ( needed if your enclosure does not have battery space )
+* [Adafruit Perma-Proto Quarter-sized Breadboard PCB](https://www.adafruit.com/products/1608?utm_medium=referral&utm_source=manifestinteractive) ( might make wiring a little easier )
+* [6-conductor 0.1" socket-socket cable - 6" long](https://www.adafruit.com/products/206?utm_medium=referral&utm_source=manifestinteractive) ( I cut these in half and use them to extend FTDI access to program Arduino boards )
 
 #### Optional Enclosure:
 
 I found it was actually cheaper to just get an existing Motion Light and replace it's components with the list above.  This is the enclosure I went with for this project:
 
-* [Hallomall™ Clover Style Night Lights](http://www.amazon.com/gp/product/B00MLW99MK)
+* [Hallomall™ Clover Style Night Lights](http://www.amazon.com/gp/product/B00MLW99MK?utm_medium=referral&utm_source=manifestinteractive)
 
 Wiring Instructions
 ---
